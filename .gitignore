@@ -1,0 +1,9 @@
+# Application
+data/
+!data/*/placeholder
+
+# Python
+*.pyc
+
+# System
+.DS_Store
