@@ -11,7 +11,7 @@ This project, code, procedures and results are **not** to be regarded as financi
 Prerequisites: git and Python 3.
 
 1. Clone the repository
-2. Install its dependencies via ``pip install requirements.txt``
+2. Install its dependencies via ``pip install -r requirements.txt``
 
 ## Running
  0.  Export your trades from the *kraken.com* exchange inside your account area. Download the trades in the ``.csv`` format, not the ledger. We do promise that the code does **not and never** upload your trading values to any external machine. Note, that price queries of the cryptocurrencies of your trades are made against against *cryptocompare.com*, at least once, to gather the needed data for earnings and profits calculations. Also note that proper tax calculation via the FIFO method does need a full or at least fully independent trading history.
